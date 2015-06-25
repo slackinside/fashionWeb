@@ -42,21 +42,27 @@
         <div class="col-lg-12 col-md-12">
                 <!-- start header bottom -->
           <div class="header_bottom">
+		  
             <div class="header_bottom_left">
             <!-- for img logo -->
-			
             <a class="logo" href="index.html">
               <img src="img/logo.jpg" alt="logo">
-             </a>
-             <!-- for text logo -->
-              <!--<a class="logo" href="index.html">
-               <strong>TIR</strong> Fashion House
-             </a> -->
-
-			 </div>
-            <div class="header_bottom_right">
-              <a href="index.html"><img src="img/bannertir.jpg" alt="img"></a>
+            </a>
+			</div>
+			
+			<div class="header_bottom_a">
+              <a href="index.html"><img src="img/icons/blog.png" alt="img"></a>
             </div>
+			<div class="header_bottom_b">
+              <a href="http://instagram.com/tirfashionhouse"><img src="img/icons/instagram.png" alt="img"></a>
+            </div>
+			<div class="header_bottom_c">
+              <a href="https://twitter.com/TIRfashionhouse"><img src="img/icons/twitter.png" alt="img"></a>
+            </div>
+            <div class="header_bottom_d">
+              <a href="http://www.facebook.com/tirfashionhouse"><img src="img/icons/facebook.png" alt="img"></a>
+            </div>
+			
           </div><!-- End header bottom -->
         </div>
       </div>
@@ -265,7 +271,7 @@
                     <ul class="fashion_catgnav">
                       <li>
                         <div class="catgimg2_container">
-                          <a href="single.html"><img alt="img" src="img/devhill/390x240x1.jpg"></a>
+                          <a href="single.html"><img alt="img" src="img/devhill/390x240x2.jpg"></a>
                         </div>
                         <h2 class="catg_titile"><a href="single.html">Aenean mollis metus sit amet ligula adipiscing</a></h2>
                         <div class="comments_box">
@@ -282,7 +288,7 @@
                       <li>
                         <div class="media wow fadeInDown">
                           <a class="media-left" href="single.html">
-                            <img src="img/devhill/112x112.jpg" alt="img">
+                            <img src="img/devhill/p112/p1121.jpg" alt="img">
                           </a>
                           <div class="media-body">
                             <h4 class="media-heading"><a href="single.html">Duis condimentum nunc pretium lobortis </a></h4> 
@@ -296,7 +302,7 @@
                       <li>
                         <div class="media wow fadeInDown">
                           <a class="media-left" href="#">
-                            <img src="img/devhill/112x112.jpg" alt="img">
+                            <img src="img/devhill/p112/p1125.jpg" alt="img">
                           </a>
                           <div class="media-body">
                             <h4 class="media-heading"><a href="#">Duis condimentum nunc pretium lobortis </a></h4> 
@@ -310,7 +316,7 @@
                       <li>
                         <div class="media wow fadeInDown">
                           <a class="media-left" href="#">
-                            <img src="img/devhill/112x112.jpg" alt="img">
+                            <img src="img/devhill/p112/p1123.jpg" alt="img">
                           </a>
                           <div class="media-body">
                             <h4 class="media-heading"><a href="#">Duis condimentum nunc pretium lobortis </a></h4> 
@@ -350,36 +356,7 @@
                           <p>Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla...</p>
                         </li>
                       </ul>
-                      <ul class="small_catg wow fadeInDown">
-                        <li>
-                          <div class="media">
-                            <a class="media-left" href="#">
-                              <img src="img/devhill/112x112.jpg" alt="img">
-                            </a>
-                            <div class="media-body">
-                              <h4 class="media-heading"><a href="#">Duis condimentum nunc pretium lobortis </a></h4> 
-                              <div class="comments_box">
-                                <span class="meta_date">14/12/2013</span>
-                                <span class="meta_comment"><a href="#">No Comments</a></span>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="media wow fadeInDown">
-                            <a class="media-left" href="#">
-                              <img src="img/devhill/112x112.jpg" alt="img">
-                            </a>
-                            <div class="media-body">
-                              <h4 class="media-heading"><a href="#">Duis condimentum nunc pretium lobortis </a></h4> 
-                              <div class="comments_box">
-                                <span class="meta_date">14/12/2013</span>
-                                <span class="meta_comment"><a href="#">No Comments</a></span>
-                              </div>
-                            </div>
-                          </div>
-                        </li>                  
-                      </ul>
+                 
                     </div>
                   </div>
                   <!-- End games category -->
@@ -395,7 +372,7 @@
                         <ul class="fashion_catgnav wow fadeInDown">
                           <li>
                             <div class="catgimg2_container">
-                              <a href="#"><img alt="img" src="img/devhill/390x240x1.jpg"></a>
+                              <a href="#"><img alt="img" src="img/devhill/390x240x3.jpg"></a>
                             </div>
                             <h2 class="catg_titile"><a href="#">Aenean mollis metus sit amet ligula adipiscing</a></h2>
                             <div class="comments_box">
@@ -406,112 +383,12 @@
                             <p>Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla...</p>
                           </li>
                         </ul>
-                        <ul class="small_catg wow fadeInDown">
-                          <li>
-                            <div class="media wow fadeInDown">
-                              <a class="media-left" href="#">
-                                <img src="img/devhill/112x112.jpg" alt="img">
-                              </a>
-                              <div class="media-body">
-                                <h4 class="media-heading"><a href="#">Duis condimentum nunc pretium lobortis </a></h4> 
-                                <div class="comments_box">
-                                  <span class="meta_date">14/12/2013</span>
-                                  <span class="meta_comment"><a href="#">No Comments</a></span>
-                                </div>
-                              </div>
-                            </div>
-                          </li>
-                          <li>
-                            <div class="media wow fadeInDown">
-                              <a class="media-left" href="#">
-                                <img src="img/devhill/112x112.jpg" alt="img">
-                              </a>
-                              <div class="media-body">
-                                <h4 class="media-heading"><a href="#">Duis condimentum nunc pretium lobortis </a></h4> 
-                                <div class="comments_box">
-                                  <span class="meta_date">14/12/2013</span>
-                                  <span class="meta_comment"><a href="#">No Comments</a></span>
-                                </div>
-                              </div>
-                            </div>
-                          </li>                  
-                        </ul>
+                        
                       </div>
                     </div>
                   </div><!-- End fashion category -->
                 </div><!-- End games & fashion category --> 
-                <!-- start technology category area -->
-                <div class="technology_catrarea">
-                  <div class="single_category">
-                    <h2>                  
-                      <span class="bold_line"><span></span></span>
-                      <span class="solid_line"></span>
-                      <a class="title_text" href="#">Technology</a>
-                    </h2>
-                    <div class="business_category_left">
-                      <ul class="fashion_catgnav wow fadeInDown">
-                        <li>
-                          <div class="catgimg2_container">
-                            <a href="#"><img alt="img" src="img/devhill/390x240x1.jpg"></a>
-                          </div>
-                          <h2 class="catg_titile"><a href="#">Aenean mollis metus sit amet ligula adipiscing</a></h2>
-                          <div class="comments_box">
-                            <span class="meta_date">14/12/2013</span>
-                            <span class="meta_comment"><a href="#">No Comments</a></span>
-                            <span class="meta_more"><a  href="#">Read More...</a></span>
-                          </div>
-                          <p>Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla...</p>
-                        </li>
-                      </ul>
-                    </div>  
-                    <div class="business_category_right">
-                      <ul class="small_catg wow fadeInDown">
-                        <li>
-                          <div class="media wow fadeInDown">
-                            <a class="media-left" href="#">
-                              <img src="img/devhill/112x112.jpg" alt="img">
-                            </a>
-                            <div class="media-body">
-                              <h4 class="media-heading"><a href="#">Duis condimentum nunc pretium lobortis </a></h4> 
-                              <div class="comments_box">
-                                <span class="meta_date">14/12/2013</span>
-                                <span class="meta_comment"><a href="#">No Comments</a></span>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="media wow fadeInDown">
-                            <a class="media-left" href="#">
-                              <img src="img/devhill/112x112.jpg" alt="img">
-                            </a>
-                            <div class="media-body">
-                              <h4 class="media-heading"><a href="#">Duis condimentum nunc pretium lobortis </a></h4> 
-                              <div class="comments_box">
-                                <span class="meta_date">14/12/2013</span>
-                                <span class="meta_comment"><a href="#">No Comments</a></span>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="media wow fadeInDown">
-                            <a class="media-left" href="#">
-                              <img src="img/devhill/112x112.jpg" alt="img">
-                            </a>
-                            <div class="media-body">
-                              <h4 class="media-heading"><a href="#">Duis condimentum nunc pretium lobortis </a></h4> 
-                              <div class="comments_box">
-                                <span class="meta_date">14/12/2013</span>
-                                <span class="meta_comment"><a href="#">No Comments</a></span>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                      </ul>
-                    </div>   
-                  </div>
-                </div><!-- End technology category area -->
+
               </div><!--End content_bottom_left-->                 
             </div>
             <!-- start content bottom right -->
@@ -556,89 +433,7 @@
                     </li>
                   </ul>
                 </div> <!-- End single bottom rightbar -->
-                <!-- start single bottom rightbar -->
-                <div class="single_bottom_rightbar">
-                  <ul role="tablist" class="nav nav-tabs custom-tabs">
-                    <li class="active" role="presentation"><a data-toggle="tab" role="tab" aria-controls="home" href="#mostPopular">Most Popular</a></li>
-                    <li role="presentation"><a data-toggle="tab" role="tab" aria-controls="messages" href="#recentComent">Recent Comment</a></li>
-                  </ul>
-                  <div class="tab-content">
-                  <div id="mostPopular" class="tab-pane fade in active" role="tabpanel">
-                    <ul class="small_catg popular_catg wow fadeInDown">
-                      <li>
-                        <div class="media wow fadeInDown">
-                          <a class="media-left" href="#">
-                            <img src="img/devhill/112x112.jpg" alt="img">
-                          </a>
-                          <div class="media-body">
-                            <h4 class="media-heading"><a href="#">Duis condimentum nunc pretium lobortis </a></h4> 
-                            <p>Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl quis mauris. Suspendisse a pharetra </p>
-                          </div>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="media wow fadeInDown">
-                          <a class="media-left" href="#">
-                            <img src="img/devhill/112x112.jpg" alt="img">
-                          </a>
-                          <div class="media-body">
-                            <h4 class="media-heading"><a href="#">Duis condimentum nunc pretium lobortis </a></h4> 
-                           <p>Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl quis mauris. Suspendisse a pharetra </p>
-                          </div>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="media wow fadeInDown">
-                          <a class="media-left" href="#">
-                            <img src="img/devhill/112x112.jpg" alt="img">
-                          </a>
-                          <div class="media-body">
-                            <h4 class="media-heading"><a href="#">Duis condimentum nunc pretium lobortis </a></h4> 
-                            <p>Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl quis mauris. Suspendisse a pharetra </p>
-                          </div>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                  <div id="recentComent" class="tab-pane fade" role="tabpanel">
-                     <ul class="small_catg popular_catg">
-                      <li>
-                        <div class="media wow fadeInDown">
-                          <a class="media-left" href="#">
-                            <img src="img/devhill/112x112.jpg" alt="img">
-                          </a>
-                          <div class="media-body">
-                            <h4 class="media-heading"><a href="#">Duis condimentum nunc pretium lobortis </a></h4> 
-                            <p>Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl quis mauris. Suspendisse a pharetra </p>
-                          </div>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="media wow fadeInDown">
-                          <a class="media-left" href="#">
-                            <img src="img/devhill/112x112.jpg" alt="img">
-                          </a>
-                          <div class="media-body">
-                            <h4 class="media-heading"><a href="#">Duis condimentum nunc pretium lobortis </a></h4> 
-                           <p>Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl quis mauris. Suspendisse a pharetra </p>
-                          </div>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="media wow fadeInDown">
-                          <a class="media-left" href="#">
-                            <img src="img/devhill/112x112.jpg" alt="img">
-                          </a>
-                          <div class="media-body">
-                            <h4 class="media-heading"><a href="#">Duis condimentum nunc pretium lobortis </a></h4> 
-                            <p>Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl quis mauris. Suspendisse a pharetra </p>
-                          </div>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>                                   
-                </div>
-              </div> <!-- End single bottom rightbar -->
+                
                <div class="single_bottom_rightbar">
                 <h2>Blog Archive</h2>
                 <div class="blog_archive wow fadeInDown">
@@ -653,11 +448,11 @@
               <div class="single_bottom_rightbar wow fadeInDown">
                 <h2>Popular Lnks</h2>
                 <ul>
-                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Posts</a></li>
                   <li><a href="#">Blog Home</a></li>
-                  <li><a href="#">Error Page</a></li>
-                  <li><a href="#">Social link</a></li>
-                  <li><a href="#">Login</a></li>                  
+                  <li><a href="#">Gallery</a></li>
+                  <li><a href="#">Social links</a></li>
+                  <li><a href="#">Homepage</a></li>                  
                 </ul>
               </div>
             </div>
@@ -703,9 +498,19 @@
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4">
               <div class="single_footer_top wow fadeInDown">
-                <h2>Address</h2>
-				<p>TIR Fashion House 725 Whisper Avenue Helensvale, Borrowdale. Harare. Zimbabwe. </p>
-				<p>+263 771 958 645 / +263 771 958 646</p>
+                <h2>Our Links</h2>
+				<div class="header_bottom_1">
+              <a href="index.html"><img src="img/icons/blog.png" alt="img"></a>
+                </div>
+			    <div class="header_bottom_2">
+              <a href="http://instagram.com/tirfashionhouse"><img src="img/icons/instagram.png" alt="img"></a>
+                </div>
+			    <div class="header_bottom_3">
+              <a href="https://twitter.com/TIRfashionhouse"><img src="img/icons/twitter.png" alt="img"></a>
+                </div>
+                <div class="header_bottom_4">
+              <a href="http://www.facebook.com/tirfashionhouse"><img src="img/icons/facebook.png" alt="img"></a>
+               </div>
               </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4">
@@ -727,7 +532,7 @@
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
               <div class="footer_bottom_right">
-                <p>Developed By <a href="http://wpfreeware.com/">ColorFreak</a></p>
+                <p>Developed By <a href="www.adavancedtechnology.com.ng">AVDStudios</a></p>
               </div>
             </div>
           </div>
