@@ -85,7 +85,7 @@
               <ul class="nav navbar-nav custom_nav">
                 <li class=""><a href="index.html">Home</a></li>              
                  <li class="dropdown">
-                  <a href="#" class="" data-toggle="dropdown" role="button" aria-expanded="false">Portfolio</a>
+                     <a href="archive1.html" class="" data-toggle="dropdown" role="button" aria-expanded="false">Portfolio</a>
                   <ul class="dropdown-menu" role="menu">
                     <li><a href="archive1.html">AfroBeatz Weekender 2014</a></li>
                     <li><a href="archive1.html">Brand Ambassadors</a></li>

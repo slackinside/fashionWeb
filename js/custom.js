@@ -1,7 +1,5 @@
  
  <!-- =========================
-        //////////////This Theme Design and Developed //////////////////////
-        //////////// by www.wpfreeware.com======================-->
 
  jQuery(document).ready(function(){
 
