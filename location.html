@@ -46,8 +46,72 @@
         <div id="preloader">
             <div id="status">&nbsp;</div>
         </div>
+<<<<<<< HEAD
         <!-- End Preloader -->
         <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+=======
+      </div>
+    </header><!-- End header area -->
+
+     <!-- Static navbar -->
+      <div id="navarea">
+        <nav class="navbar navbar-default" role="navigation">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav custom_nav">
+                <li class=""><a href="index.html">Home</a></li>
+                 <li class="dropdown">
+                  <a href="#" class="" data-toggle="dropdown" role="button" aria-expanded="false">Portfolio</a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="archive1.html">AfroBeatz Weekender 2014</a></li>
+                    <li><a href="archive2.html">Brand Ambassadors</a></li>
+                    <li><a href="archive3.html">Debut Collection</a></li>
+                    <li><a href="archive4.html">Enchanted Collection</a></li>
+                  </ul>
+                </li>
+                <li><a href="about.html">About Us</a></li>
+               	<li><a href="contact.html">Contact</a></li>
+				<li><a href="location.html">Location</a></li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div><!--/.container-fluid -->
+        </nav>
+      </div>
+      <!-- start site main content -->
+      <section id="mainContent">
+
+
+           <!-- map div location -->
+          <div id="map" class="map"></div>
+
+          <script type="text/javascript">
+        var map = new ol.Map({
+        target: 'map',
+        layers: [
+          new ol.layer.Tile({
+            source: new ol.source.MapQuest({layer: 'sat'})
+          })
+		    ],
+        view: new ol.View({
+          center: ol.proj.transform([31.759732, 31.087188], 'EPSG:4326', 'EPSG:3857'),
+          zoom: 10
+        })
+      });
+          </script>
+      </section><!-- End site main content -->
+    </div> <!-- /.container -->
+     <footer id="footer">
+      <div class="footer_top">
+>>>>>>> fashionWeb/master
         <div class="container">
             <!-- start header area -->
             <div class="header_bottom">

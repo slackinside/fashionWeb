@@ -17,9 +17,9 @@
     <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'> 
      <!-- slick slider css file -->
     <link href="css/slick.css" rel="stylesheet">     
-	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+	<!--<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">-->
 	<link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
-	<link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
+	<!--<link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">-->
     <!-- <link href="css/theme-red.css" rel="stylesheet"> -->  
       <link href="css/theme.css" rel="stylesheet">	 
     <!-- main site css file -->    
@@ -46,7 +46,7 @@
     <!-- start header area -->
     <header id="header">
       <div class="row">
-        <div class="col-lg-12 col-md-offset-2">
+        <div class="col-lg-12 col-md-12">
           <!-- start header bottom -->
           <div class="header_bottom">
 		  
@@ -107,71 +107,45 @@
         </nav>
       </div>
 	  
-	  <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
-<div id="blueimp-gallery" class="blueimp-gallery">
-    <!-- The container for the modal slides -->
-    <div class="slides"></div>
-    <!-- Controls for the borderless lightbox -->
-    <h3 class="title"></h3>
-    <a class="prev">‹</a>
-    <a class="next">›</a>
-    <a class="close">×</a>
-    <a class="play-pause"></a>
-    <ol class="indicator"></ol>
-    <!-- The modal dialog, which will be used to wrap the lightbox content -->
-    <div class="modal fade">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title"></h4>
-                </div>
-                <div class="modal-body next"></div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default pull-left prev">
-                        <i class="glyphicon glyphicon-chevron-left"></i>
-                        Previous
-                    </button>
-                    <button type="button" class="btn btn-primary next">
-                        Next
-                        <i class="glyphicon glyphicon-chevron-right"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>		
-
-	  
-	  
       <!-- start site main content -->
       <section id="mainContent">  
           <!-- start main content bottom -->
           <div class="content_bottom">
-            <div class="col-lg-8 col-md-8">
+		  <center>
+            <div class="col-lg-10 col-md-offset-1">
 			
 			<div id="links">
     <a href="img/gallery/debut/DSC_0437.jpg" title="" data-gallery>
-        <img src="img/gallery/debut/DSC_0437.jpg" alt="">
+        <img src="img/gallery/debut/DSC_04372.jpg" alt="">
     </a>
     <a href="img/gallery/debut/DSC_1025.jpg" title="" data-gallery>
-        <img src="img/gallery/debut/DSC_1025.jpg" alt="">
+        <img src="img/gallery/debut/DSC_10252.jpg" alt="">
     </a>
-    <a href="img/gallery/debut/DSC_1030.jpg" title="" data-gallery>
-        <img src="img/gallery/debut/DSC_1030.jpg" alt="">
-    </a>
+    
 	<a href="img/gallery/debut/DSC_1034.jpg" title="" data-gallery>
-        <img src="img/gallery/debut/DSC_1034.jpg" alt="">
+        <img src="img/gallery/debut/DSC_10342.jpg" alt="">
     </a>
-	 <a href="img/gallery/debut/DSC_1246.jpg" title="" data-gallery>
-        <img src="img/gallery/debut/DSC_1246.jpg" alt="">
+	<a href="img/gallery/debut/DSC_1275.jpg" title="" data-gallery>
+        <img src="img/gallery/debut/DSC_12752.jpg" alt="">
     </a>
-	<a href="img/gallery/debut/DSC_1070.jpg" title="" data-gallery>
-        <img src="img/gallery/debut/DSC_1070.jpg" alt="">
+	
+	 <a href="img/gallery/debut/DSC_1264.jpg" title="" data-gallery>
+        <img src="img/gallery/debut/DSC_12642.jpg" alt="">
     </a>
-	<a href="img/gallery/debut/DSC_1095.jpg" title="" data-gallery>
-        <img src="img/gallery/debut/DSC_1095.jpg" alt="">
+	<a href="img/gallery/debut/DSC_1266.jpg" title="" data-gallery>
+        <img src="img/gallery/debut/DSC_12662.jpg" alt="">
     </a>
+	<a href="img/gallery/debut/DSC_1272.jpg" title="" data-gallery>
+        <img src="img/gallery/debut/DSC_12722.jpg" alt="">
+    </a>
+	
+	<a href="img/gallery/debut/DSC_1279.jpg" title="" data-gallery>
+        <img src="img/gallery/debut/DSC_12792.jpg" alt="">
+    </a>
+	<a href="img/gallery/debut/DSC_1030.jpg" title="" data-gallery>
+        <img src="img/gallery/debut/DSC_10302.jpg" alt="">
+    </a>
+	
 			</div>	
 			
 			  
@@ -182,66 +156,12 @@
 					<li><a href="archive3.html">1</a></li>
 					<li><a href="archive31.html">2</a></li>
 					<li><a href="archive32.html">3</a></li>
-					<li><a href="archive33.html">4</a></li>
+					
 				  </ul>
 				</nav>
-			  </div>
+			  </div>			  
             </div>
-			
-			
-            <!-- start content bottom right -->
-            <div class="col-lg-4 col-md-4">
-              <div class="content_bottom_right">
-                <!-- start single bottom rightbar -->
-                <div class="single_bottom_rightbar">
-                  <h2>Recent Post</h2>
-                  <ul class="small_catg popular_catg wow fadeInDown">
-			    <?php $args = array( 'numberposts' => 6, 'post_status'=>"publish",'post_type'=>"post",'orderby'=>"post_date");
-                                      $postslist = get_posts( $args ); 
-                                      foreach ($postslist as $post) :  setup_postdata($post);
-                                      $url = wp_get_attachment_image_src( get_post_thumbnail_id( $id ), 'single-post-thumbnail' )[0];
-                ?>
-                    <li>
-                      <div class="media wow fadeInDown">
-					
-                        <a href="<?php the_permalink(); ?>" class="media-left">
-                          <img alt="img" src="<?php echo ((empty($url)) ? 'http://tirfashionhouse.com/blog/wp-content/uploads/2015/06/tirlogo-copy-e1435200344593.jpg' : $url); ?>"">
-                        </a>
-                        <div class="media-body">
-                          <h4 class="media-heading"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4> 
-                          <p><?php the_excerpt(); ?> </p>
-                        </div>
-                      </div>
-                    </li>
-				<?php endforeach; ?>                                      
-                  </ul> 
-                </div> <!-- End single bottom rightbar -->
-                
-			  
-               <div class="single_bottom_rightbar">
-                <h2>Blog Archive</h2>
-                <div class="blog_archive wow fadeInDown">
-                   <form>
-                     <select>
-                       <option value="">Blog Archive</option>
-                       <option value="">October(20)</option>
-                     </select>
-                   </form>
-                 </div>
-              </div>
-              <div class="single_bottom_rightbar wow fadeInDown">
-                <h2>Popular Lnks</h2>
-                <ul>
-                   <li><a href="#">Posts</a></li>
-                  <li><a href="#">Blog Home</a></li>
-                  <li><a href="#">Gallery</a></li>
-                  <li><a href="#">Social links</a></li>
-                  <li><a href="#">Homepage</a></li>                
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!-- start content bottom right -->
+			</center>
         </div><!-- end main content bottom -->        
       </section><!-- End site main content -->
 	  
@@ -325,6 +245,40 @@
       </div>
     </footer>
 
+	<div id="blueimp-gallery" class="blueimp-gallery">
+    <!-- The container for the modal slides -->
+    <div class="slides"></div>
+    <!-- Controls for the borderless lightbox -->
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+    <!-- The modal dialog, which will be used to wrap the lightbox content -->
+    <div class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title"></h4>
+                </div>
+                <div class="modal-body next"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default pull-left prev">
+                        <i class="glyphicon glyphicon-chevron-left"></i>
+                        Previous
+                    </button>
+                    <button type="button" class="btn btn-primary next">
+                        Next
+                        <i class="glyphicon glyphicon-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>	
+	
   <!-- jQuery google CDN Library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
   <!-- For content animatin  -->
@@ -335,7 +289,7 @@
   <script src="js/slick.min.js"></script> 
    <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
 	<script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
-	<script src="js/bootstrap-image-gallery.min.js"></script>
+	<!--<script src="js/bootstrap-image-gallery.min.js"></script>-->
   
     <!-- custom js file include -->
   <script src="js/custom.js"></script>  
