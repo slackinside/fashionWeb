@@ -274,18 +274,17 @@ img:hover {
     width: 100%;
 }
 .navbar-default .navbar-nav > li > a {
-    color: #fff;
+    color: darkslategray;
     display: block;
     font-family: europa, sans-serif;
     text-align: left;
-    text-shadow: 0 1px 0 #fff;
     text-transform: uppercase;
     letter-spacing: 1px;
     border-top: 2px solid transparent;
     border-bottom: 2px solid transparent;
     margin-top: -2px;
     margin-bottom: -2px;
-    padding-bottom: 17px;
+    padding-bottom: 10px;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
@@ -348,7 +347,7 @@ img:hover {
 }
 .single_iteam h2 > a {
     background-color: rgba(0, 0, 0, 0.4);
-    color: #fff;
+    color: slategrey;
     display: inline-block;
     font-size: 20px;
     padding: 10px;
@@ -407,7 +406,7 @@ img:hover {
     text-align: left;
     text-shadow: 0 1px 0 #fff;
     letter-spacing: 1px;
-    color: #fff;
+    color: lightslategrey;
     -webkit-transition: all 0.5s;
     /* Ch, Saf  3.2 */
     -moz-transition: all 0.5s;
@@ -442,6 +441,10 @@ img:hover {
     margin-top: 5px;
     text-transform: uppercase;
     position: relative;
+    font-family: europa, sans-serif;
+    text-shadow: 0 1px 0 #fff;
+    letter-spacing: 1px;
+    color: lightslategrey;
 }
 .bold_line {
     bottom: 0;
@@ -561,7 +564,7 @@ img:hover {
     width: 100%;
 }
 .single_featured_slide>h2 a {
-    color: #383838;
+    color: darkslategray;
     font-family: europa, sans-serif;
     text-align: left;
     text-shadow: 0 1px 0 #fff;
@@ -778,7 +781,7 @@ span.meta_more:before {
     margin-bottom: 10px;
 }
 .single_bottom_rightbar>h2 {
-    color: #222;
+    color: darkslategrey;
     display: block;
     font-family: europa, sans-serif;
     text-align: left;
