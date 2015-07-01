@@ -28,7 +28,7 @@ a:hover {
     color: #646464;
     text-decoration: none;
     font-family: europa, sans-serif;
-    text-align: left;
+    text-align: center;
     text-shadow: 0 1px 0 #fff;
     letter-spacing: 1px;
 }
@@ -228,7 +228,7 @@ img:hover {
 /*scrol to top*/
 
 .scrollToTop {
-    bottom: 105px;
+    bottom: 50px;
     display: none;
     font-size: 32px;
     font-weight: bold;
@@ -853,14 +853,14 @@ span.meta_more:before {
     float: left;
     display: inline;
     width: 100%;
-    border-top: 10px solid #798992;
+    border-top: 0px solid #798992;
     margin-top: 30px;
 }
 .footer_top {
-    background-color: #434c51;
+    background: none repeat scroll 0 0 #282e31;
     display: inline;
     float: left;
-    padding: 15px 0;
+    padding: 0px 0;
     width: 100%;
 }
 .single_footer_top {
